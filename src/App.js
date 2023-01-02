@@ -60,7 +60,9 @@ export default function App() {
 
 		const nextQuestion = currentQuestion + 1;
 		if (nextQuestion < questions.length) {
+		setCurrentQuestion(nextQuestion);
 		} else {
+			setShowScore(true);
 		}
 	};
 	return (
