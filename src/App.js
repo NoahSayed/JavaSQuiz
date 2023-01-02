@@ -30,7 +30,16 @@ export default function App() {
 			],
 		},
 		{
-			questionText: 'How many Harry Potter books are there?',
+			questionText: 'How many colours in a rainbow?',
+			answerOptions: [
+				{ answerText: '1', isCorrect: false },
+				{ answerText: '4', isCorrect: false },
+				{ answerText: '6', isCorrect: false },
+				{ answerText: '7', isCorrect: true },
+			],
+		},
+		{
+			questionText: 'How many books does harry potter has?',
 			answerOptions: [
 				{ answerText: '1', isCorrect: false },
 				{ answerText: '4', isCorrect: false },
